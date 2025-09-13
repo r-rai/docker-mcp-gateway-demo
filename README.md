@@ -39,7 +39,7 @@ A comprehensive demonstration of Docker MCP Gateway with multiple MCP servers in
 ### Install Docker MCP Gateway
 
 1. **Install Docker MCP CLI:**
-   ```bash
+```bash
 # Clone the repository
 git clone https://github.com/docker/mcp-gateway.git
 cd mcp-gateway
@@ -47,7 +47,7 @@ mkdir -p "$HOME/.docker/cli-plugins/"
 
 # Build and install the plugin
 make docker-mcp
-   ```
+```
 
 2. **Verify Installation:**
    ```bash
