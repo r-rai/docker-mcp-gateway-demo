@@ -14,11 +14,3 @@ registry:
     image: "docker-mcpgw-demo1-weather-server:latest"
     tools:
       - name: "get_weather"
-
-  calculator-server:
-    description: "Simple calculator MCP server for basic math operations"
-    title: "Calculator Server"
-    type: "server"
-    image: "docker-mcpgw-demo1-calculator-server:latest"
-    tools:
-      - name: "calculate"
