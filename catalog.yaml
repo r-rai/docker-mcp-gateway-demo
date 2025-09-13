@@ -6,8 +6,19 @@ registry:
     image: mcp/duckduckgo@sha256:68eb20db6109f5c312a695fc5ec3386ad15d93ffb765a0b4eb1baf4328dec14f
     allowHosts:
       - html.duckduckgo.com:443
+
   weather-server:
     description: "Simple weather MCP server providing mock weather data"
     title: "Weather Server"
     type: "server"
     image: "docker-mcpgw-demo1-weather-server:latest"
+    tools:
+      - name: "get_weather"
+
+  calculator-server:
+    description: "Simple calculator MCP server for basic math operations"
+    title: "Calculator Server"
+    type: "server"
+    image: "docker-mcpgw-demo1-calculator-server:latest"
+    tools:
+      - name: "calculate"
